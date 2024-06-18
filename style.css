@@ -1,22 +1,33 @@
 body {
     font-family: monospace;
-    background-color: #f0f0f0;
+    font-size: 14px;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    width: 90%;
+    width: 80%;
     max-width: 800px;
-    margin: 20px auto;
-    background-color: #fff;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-pre {
-    font-family: monospace;
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li ul {
+    padding-left: 20px;
 }
 
 a {
@@ -28,22 +39,8 @@ a:hover {
     text-decoration: underline;
 }
 
-.blog-post {
-    width: 90%;
-    max-width: 600px;
-    margin: 40px auto;
-    text-align: center;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 @media (max-width: 600px) {
     .container {
-        width: 95%;
-        padding: 10px;
-    }
-    .blog-post {
         width: 95%;
         padding: 10px;
     }
