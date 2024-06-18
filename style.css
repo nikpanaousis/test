@@ -1,5 +1,7 @@
 body {
     font-family: monospace;
+    background-color: #f0f0f0;
+    color: #333;
     margin: 0;
     padding: 0;
 }
@@ -7,8 +9,10 @@ body {
 .container {
     width: 90%;
     max-width: 800px;
-    margin: 20px auto; 
+    margin: 20px auto;
+    background-color: #fff;
     padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 pre {
@@ -24,8 +28,22 @@ a:hover {
     text-decoration: underline;
 }
 
+.blog-post {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 @media (max-width: 600px) {
     .container {
+        width: 95%;
+        padding: 10px;
+    }
+    .blog-post {
         width: 95%;
         padding: 10px;
     }
