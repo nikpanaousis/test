@@ -1,0 +1,32 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+   /* margin: 20px auto; (use this to center) */ 
+    padding: 20px;
+}
+
+pre {
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+}
