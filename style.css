@@ -7,7 +7,7 @@ body {
 .container {
     width: 90%;
     max-width: 800px;
-   /* margin: 20px auto; (use this to center) */ 
+    margin: 20px auto; 
     padding: 20px;
 }
 
